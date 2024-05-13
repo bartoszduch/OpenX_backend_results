@@ -10,7 +10,7 @@ app_id = uuid.uuid4().hex
 
 
 def convert_to_celsius(fare):
-    return (fare - 32) * (5 / 9)
+    return round((fare - 32) * (5 / 9),2)
 
 
 @app.route('/convert', methods=['GET'])
