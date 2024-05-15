@@ -36,7 +36,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: yourusername/yourrepo:latest
+          tags: bartoszduch/my-app:latest
 
       - name: Lint Helm Chart
         run: helm lint ./charts/your-chart
