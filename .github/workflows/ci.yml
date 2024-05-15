@@ -23,12 +23,13 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-
-      - name: Lint Code
-        run: npm install && npm run lint
+          
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
 
       - name: Run Tests
-        run: npm test
+        run: pytest
+      
 
       - name: Build and Push Docker image
         uses: docker/build-push-action@v2
@@ -39,4 +40,4 @@ jobs:
           tags: bartoszduch/my-app:latest
 
       - name: Lint Helm Chart
-        run: helm lint ./charts/your-chart
+        run: helm lint ./my=app/Chart.yaml
