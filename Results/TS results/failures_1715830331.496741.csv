@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences
+POST,/v1/models/f_to_c_model:predict/v1/models/f_to_c_model:predict,"ConnectionRefusedError(111, 'Connection refused')",94
