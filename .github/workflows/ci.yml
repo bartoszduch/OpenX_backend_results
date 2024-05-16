@@ -38,4 +38,4 @@ jobs:
           tags: bartoszduch/my-app:latest
 
       - name: Lint Helm Chart
-        run: helm lint ./my=app/Chart.yaml
+        run: helm lint ./my-app/Chart.yaml
