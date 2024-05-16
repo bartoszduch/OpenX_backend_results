@@ -12,7 +12,6 @@
         <li>Kubernetes configuration files</li>
         <li>Helm charts</li>
         <li>Python farenheit to celsius app</li>
-        <li>Locust configuration</li>
     </ul>
 </body>
 </html>
