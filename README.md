@@ -11,7 +11,7 @@
     <ul>
         <li>Kubernetes configuration files</li>
         <li>Helm charts</li>
-        <li>TensorFlow AI setup</li>
+        <li>Python farenheit to celsius app</li>
         <li>Locust configuration</li>
     </ul>
 </body>
